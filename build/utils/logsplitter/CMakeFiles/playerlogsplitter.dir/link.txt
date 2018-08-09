@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -O3 -DNDEBUG  -rdynamic CMakeFiles/playerlogsplitter.dir/logsplitter.o  -o playerlogsplitter -Wl,-rpath,/usr/local/lib64 -lm 

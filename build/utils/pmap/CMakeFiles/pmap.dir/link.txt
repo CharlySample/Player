@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -Wno-narrowing -O3 -DNDEBUG  -shared -Wl,-soname,libpmap.so.3.0 -o libpmap.so.3.0.2 CMakeFiles/pmap.dir/logfile.o CMakeFiles/pmap.dir/omap.o CMakeFiles/pmap.dir/pmap.o CMakeFiles/pmap.dir/rmap.o CMakeFiles/pmap.dir/slap.o -Wl,-rpath,/usr/local/lib64 -lGLU -lGL -lglut -lXmu -lXi -lgsl -lgslcblas -lm 

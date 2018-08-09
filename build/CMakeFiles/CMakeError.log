@@ -1,0 +1,554 @@
+Determining if the function xdr_free exists failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_16fb4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_16fb4.dir/build.make CMakeFiles/cmTC_16fb4.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16fb4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=xdr_free   -o CMakeFiles/cmTC_16fb4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_16fb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16fb4.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=xdr_free    -rdynamic CMakeFiles/cmTC_16fb4.dir/CheckFunctionExists.c.o  -o cmTC_16fb4 
+CMakeFiles/cmTC_16fb4.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `xdr_free'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_16fb4.dir/build.make:98: cmTC_16fb4] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_16fb4/fast] Error 2
+
+
+Determining if files dns_sd.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_34cf9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_34cf9.dir/build.make CMakeFiles/cmTC_34cf9.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34cf9.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_34cf9.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: dns_sd.h: No such file or directory
+ #include <dns_sd.h>
+          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_34cf9.dir/build.make:66: CMakeFiles/cmTC_34cf9.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_34cf9/fast] Error 2
+
+Source:
+/* */
+#include <dns_sd.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/filio.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_88c9f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_88c9f.dir/build.make CMakeFiles/cmTC_88c9f.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88c9f.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_88c9f.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: sys/filio.h: No such file or directory
+ #include <sys/filio.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_88c9f.dir/build.make:66: CMakeFiles/cmTC_88c9f.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_88c9f/fast] Error 2
+
+Source:
+/* */
+#include <sys/filio.h>
+
+
+int main(void){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_927e0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_927e0.dir/build.make CMakeFiles/cmTC_927e0.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_927e0.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_927e0.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: ieeefp.h: No such file or directory
+ #include <ieeefp.h>
+          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_927e0.dir/build.make:66: CMakeFiles/cmTC_927e0.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_927e0/fast] Error 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(void){return 0;}
+
+Determining if the function GEOSGeomFromWKB_buf exists in the geos_c failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_97b41/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_97b41.dir/build.make CMakeFiles/cmTC_97b41.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97b41.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=GEOSGeomFromWKB_buf   -o CMakeFiles/cmTC_97b41.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_97b41
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97b41.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=GEOSGeomFromWKB_buf    -rdynamic CMakeFiles/cmTC_97b41.dir/CheckFunctionExists.c.o  -o cmTC_97b41 -lgeos_c 
+/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/bin/ld: cannot find -lgeos_c
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_97b41.dir/build.make:98: cmTC_97b41] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_97b41/fast] Error 2
+
+
+Determining if the include file Device.h exists failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0a195/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0a195.dir/build.make CMakeFiles/cmTC_0a195.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0a195.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++  -DLINUX -DUNIX -D__LINUX__  -Wall -Wno-narrowing    -o CMakeFiles/cmTC_0a195.dir/CheckIncludeFile.cxx.o -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: Device.h: No such file or directory
+ #include <Device.h>
+          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_0a195.dir/build.make:66: CMakeFiles/cmTC_0a195.dir/CheckIncludeFile.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_0a195/fast] Error 2
+
+
+Determining if files sys/types.h;linux/videodev.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_be52e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_be52e.dir/build.make CMakeFiles/cmTC_be52e.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be52e.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_be52e.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:3:10: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_be52e.dir/build.make:66: CMakeFiles/cmTC_be52e.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_be52e/fast] Error 2
+
+Source:
+/* */
+#include <sys/types.h>
+#include <linux/videodev.h>
+
+
+int main(void){return 0;}
+
+Determining if files dc1394/control.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_856e9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_856e9.dir/build.make CMakeFiles/cmTC_856e9.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_856e9.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_856e9.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: dc1394/control.h: No such file or directory
+ #include <dc1394/control.h>
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_856e9.dir/build.make:66: CMakeFiles/cmTC_856e9.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_856e9/fast] Error 2
+
+Source:
+/* */
+#include <dc1394/control.h>
+
+
+int main(void){return 0;}
+
+Determining if files libraw1394/raw1394.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e3b0b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e3b0b.dir/build.make CMakeFiles/cmTC_e3b0b.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3b0b.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_e3b0b.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: libraw1394/raw1394.h: No such file or directory
+ #include <libraw1394/raw1394.h>
+          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e3b0b.dir/build.make:66: CMakeFiles/cmTC_e3b0b.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_e3b0b/fast] Error 2
+
+Source:
+/* */
+#include <libraw1394/raw1394.h>
+
+
+int main(void){return 0;}
+
+Determining if files libdc1394/dc1394_control.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7f45e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7f45e.dir/build.make CMakeFiles/cmTC_7f45e.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f45e.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_7f45e.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: libdc1394/dc1394_control.h: No such file or directory
+ #include <libdc1394/dc1394_control.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_7f45e.dir/build.make:66: CMakeFiles/cmTC_7f45e.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_7f45e/fast] Error 2
+
+Source:
+/* */
+#include <libdc1394/dc1394_control.h>
+
+
+int main(void){return 0;}
+
+Determining if files yarp/os/all.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_96fd4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_96fd4.dir/build.make CMakeFiles/cmTC_96fd4.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96fd4.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_96fd4.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: yarp/os/all.h: No such file or directory
+ #include <yarp/os/all.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_96fd4.dir/build.make:66: CMakeFiles/cmTC_96fd4.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_96fd4/fast] Error 2
+
+Source:
+/* */
+#include <yarp/os/all.h>
+
+
+int main(void){return 0;}
+
+Determining if files yarp/sig/all.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a99ae/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a99ae.dir/build.make CMakeFiles/cmTC_a99ae.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a99ae.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_a99ae.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: yarp/sig/all.h: No such file or directory
+ #include <yarp/sig/all.h>
+          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_a99ae.dir/build.make:66: CMakeFiles/cmTC_a99ae.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_a99ae/fast] Error 2
+
+Source:
+/* */
+#include <yarp/sig/all.h>
+
+
+int main(void){return 0;}
+
+Determining if files unicap.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_43cf0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_43cf0.dir/build.make CMakeFiles/cmTC_43cf0.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43cf0.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_43cf0.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: unicap.h: No such file or directory
+ #include <unicap.h>
+          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_43cf0.dir/build.make:66: CMakeFiles/cmTC_43cf0.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_43cf0/fast] Error 2
+
+Source:
+/* */
+#include <unicap.h>
+
+
+int main(void){return 0;}
+
+Determining if the function main exists in the roboop failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d2c36/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d2c36.dir/build.make CMakeFiles/cmTC_d2c36.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2c36.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=main   -o CMakeFiles/cmTC_d2c36.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+/usr/share/cmake/Modules/CheckFunctionExists.c:14:5: error: conflicting types for ‘main’
+ int main(int ac, char* av[])
+     ^~~~
+<command-line>:0:23: note: previous declaration of ‘main’ was here
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake/Modules/CheckFunctionExists.c: In function ‘main’:
+<command-line>:0:23: error: too few arguments to function ‘main’
+/usr/share/cmake/Modules/CheckFunctionExists.c:17:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake/Modules/CheckFunctionExists.c:14:5: note: declared here
+ int main(int ac, char* av[])
+     ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_d2c36.dir/build.make:66: CMakeFiles/cmTC_d2c36.dir/CheckFunctionExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_d2c36/fast] Error 2
+
+
+Determining if files phidget21.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_bacbe/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_bacbe.dir/build.make CMakeFiles/cmTC_bacbe.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bacbe.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_bacbe.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: phidget21.h: No such file or directory
+ #include <phidget21.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_bacbe.dir/build.make:66: CMakeFiles/cmTC_bacbe.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_bacbe/fast] Error 2
+
+Source:
+/* */
+#include <phidget21.h>
+
+
+int main(void){return 0;}
+
+Determining if files /include/canlib.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ad70f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ad70f.dir/build.make CMakeFiles/cmTC_ad70f.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad70f.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_ad70f.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: /include/canlib.h: No such file or directory
+ #include </include/canlib.h>
+          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_ad70f.dir/build.make:66: CMakeFiles/cmTC_ad70f.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_ad70f/fast] Error 2
+
+Source:
+/* */
+#include </include/canlib.h>
+
+
+int main(void){return 0;}
+
+Determining if files robotinocom.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_96002/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_96002.dir/build.make CMakeFiles/cmTC_96002.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96002.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_96002.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: robotinocom.h: No such file or directory
+ #include <robotinocom.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_96002.dir/build.make:66: CMakeFiles/cmTC_96002.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_96002/fast] Error 2
+
+Source:
+/* */
+#include <robotinocom.h>
+
+
+int main(void){return 0;}
+
+Determining if files xtimer.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_244d5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_244d5.dir/build.make CMakeFiles/cmTC_244d5.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_244d5.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_244d5.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: xtimer.h: No such file or directory
+ #include <xtimer.h>
+          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_244d5.dir/build.make:66: CMakeFiles/cmTC_244d5.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_244d5/fast] Error 2
+
+Source:
+/* */
+#include <xtimer.h>
+
+
+int main(void){return 0;}
+
+Determining if files xthread.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b5845/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b5845.dir/build.make CMakeFiles/cmTC_b5845.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5845.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_b5845.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: xthread.h: No such file or directory
+ #include <xthread.h>
+          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_b5845.dir/build.make:66: CMakeFiles/cmTC_b5845.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_b5845/fast] Error 2
+
+Source:
+/* */
+#include <xthread.h>
+
+
+int main(void){return 0;}
+
+Determining if files libusbSR.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_06151/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_06151.dir/build.make CMakeFiles/cmTC_06151.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06151.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_06151.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: libusbSR.h: No such file or directory
+ #include <libusbSR.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_06151.dir/build.make:66: CMakeFiles/cmTC_06151.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_06151/fast] Error 2
+
+Source:
+/* */
+#include <libusbSR.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file libMesaSR.h exists failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_fec46/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_fec46.dir/build.make CMakeFiles/cmTC_fec46.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fec46.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -Wall -Wno-narrowing    -o CMakeFiles/cmTC_fec46.dir/CheckIncludeFile.cxx.o -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: libMesaSR.h: No such file or directory
+ #include <libMesaSR.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_fec46.dir/build.make:66: CMakeFiles/cmTC_fec46.dir/CheckIncludeFile.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_fec46/fast] Error 2
+
+
+Determining if files isense/isense.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_68ebf/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_68ebf.dir/build.make CMakeFiles/cmTC_68ebf.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68ebf.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_68ebf.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: isense/isense.h: No such file or directory
+ #include <isense/isense.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_68ebf.dir/build.make:66: CMakeFiles/cmTC_68ebf.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_68ebf/fast] Error 2
+
+Source:
+/* */
+#include <isense/isense.h>
+
+
+int main(void){return 0;}
+
+Determining if files sphinx2/ckd_alloc.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d8b90/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d8b90.dir/build.make CMakeFiles/cmTC_d8b90.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8b90.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_d8b90.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: sphinx2/ckd_alloc.h: No such file or directory
+ #include <sphinx2/ckd_alloc.h>
+          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d8b90.dir/build.make:66: CMakeFiles/cmTC_d8b90.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_d8b90/fast] Error 2
+
+Source:
+/* */
+#include <sphinx2/ckd_alloc.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file SVS/svsclass.h exists failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_35b40/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_35b40.dir/build.make CMakeFiles/cmTC_35b40.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35b40.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -Wall -Wno-narrowing    -o CMakeFiles/cmTC_35b40.dir/CheckIncludeFile.cxx.o -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: SVS/svsclass.h: No such file or directory
+ #include <SVS/svsclass.h>
+          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_35b40.dir/build.make:66: CMakeFiles/cmTC_35b40.dir/CheckIncludeFile.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_35b40/fast] Error 2
+
+
+Determining if files libparticle.h exist failed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_76765/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_76765.dir/build.make CMakeFiles/cmTC_76765.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76765.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_76765.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: libparticle.h: No such file or directory
+ #include <libparticle.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_76765.dir/build.make:66: CMakeFiles/cmTC_76765.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_76765/fast] Error 2
+
+Source:
+/* */
+#include <libparticle.h>
+
+
+int main(void){return 0;}
+

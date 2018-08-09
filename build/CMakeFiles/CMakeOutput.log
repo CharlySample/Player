@@ -1,0 +1,1292 @@
+The system is: Linux - 4.14.52-gentoo - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/carlos/Downloads/player-master/build/CMakeFiles/3.9.6/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/carlos/Downloads/player-master/build/CMakeFiles/3.9.6/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7c567/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7c567.dir/build.make CMakeFiles/cmTC_7c567.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c567.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7c567.dir/testCCompiler.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_7c567
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c567.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7c567.dir/testCCompiler.c.o  -o cmTC_7c567 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d7701/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d7701.dir/build.make CMakeFiles/cmTC_d7701.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7701.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d7701.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d7701
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7701.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_d7701.dir/CMakeCCompilerABI.c.o  -o cmTC_d7701 
+Using built-in specs.
+COLLECT_GCC=/usr/x86_64-pc-linux-gnu/gcc-bin/7.3.0/gcc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /var/tmp/portage/sys-devel/gcc-7.3.0-r3/work/gcc-7.3.0/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/7.3.0 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/7.3.0 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/7.3.0/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/7.3.0/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include/g++-v7 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/7.3.0/python --enable-languages=c,c++,fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 7.3.0-r3 p1.4' --disable-esp --enable-libstdcxx-time --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --disable-altivec --disable-fixed-point --enable-targets=all --enable-libgomp --disable-libmudflap --disable-libssp --disable-libcilkrts --disable-libmpx --enable-vtable-verify --enable-libvtv --enable-lto --without-isl --enable-libsanitizer --enable-default-pie --enable-default-ssp
+Thread model: posix
+gcc version 7.3.0 (Gentoo 7.3.0-r3 p1.4) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d7701' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/collect2 -plugin /usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGqONAF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7701 /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../.. CMakeFiles/cmTC_d7701.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d7701' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_d7701/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_d7701.dir/build.make CMakeFiles/cmTC_d7701.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d7701.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_d7701.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d7701]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7701.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_d7701.dir/CMakeCCompilerABI.c.o  -o cmTC_d7701 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/x86_64-pc-linux-gnu/gcc-bin/7.3.0/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /var/tmp/portage/sys-devel/gcc-7.3.0-r3/work/gcc-7.3.0/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/7.3.0 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/7.3.0 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/7.3.0/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/7.3.0/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include/g++-v7 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/7.3.0/python --enable-languages=c,c++,fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 7.3.0-r3 p1.4' --disable-esp --enable-libstdcxx-time --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --disable-altivec --disable-fixed-point --enable-targets=all --enable-libgomp --disable-libmudflap --disable-libssp --disable-libcilkrts --disable-libmpx --enable-vtable-verify --enable-libvtv --enable-lto --without-isl --enable-libsanitizer --enable-default-pie --enable-default-ssp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Gentoo 7.3.0-r3 p1.4) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d7701' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/collect2 -plugin /usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGqONAF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7701 /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../.. CMakeFiles/cmTC_d7701.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccGqONAF.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d7701] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../..]
+    arg [CMakeFiles/cmTC_d7701.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/lib] ==> [/usr/x86_64-pc-linux-gnu/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0;/usr/lib64;/lib64;/usr/x86_64-pc-linux-gnu/lib;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_29e40/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_29e40.dir/build.make CMakeFiles/cmTC_29e40.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29e40.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_29e40.dir/feature_tests.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_29e40
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29e40.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_29e40.dir/feature_tests.c.o  -o cmTC_29e40 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1507f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1507f.dir/build.make CMakeFiles/cmTC_1507f.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1507f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_1507f.dir/feature_tests.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1507f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1507f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1507f.dir/feature_tests.c.o  -o cmTC_1507f 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cd6f7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cd6f7.dir/build.make CMakeFiles/cmTC_cd6f7.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd6f7.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_cd6f7.dir/feature_tests.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_cd6f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd6f7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cd6f7.dir/feature_tests.c.o  -o cmTC_cd6f7 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e0f55/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e0f55.dir/build.make CMakeFiles/cmTC_e0f55.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0f55.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_e0f55.dir/testCXXCompiler.cxx.o -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e0f55
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0f55.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e0f55.dir/testCXXCompiler.cxx.o  -o cmTC_e0f55 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_08d4d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_08d4d.dir/build.make CMakeFiles/cmTC_08d4d.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_08d4d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_08d4d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_08d4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08d4d.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_08d4d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_08d4d 
+Using built-in specs.
+COLLECT_GCC=/usr/x86_64-pc-linux-gnu/gcc-bin/7.3.0/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /var/tmp/portage/sys-devel/gcc-7.3.0-r3/work/gcc-7.3.0/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/7.3.0 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/7.3.0 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/7.3.0/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/7.3.0/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include/g++-v7 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/7.3.0/python --enable-languages=c,c++,fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 7.3.0-r3 p1.4' --disable-esp --enable-libstdcxx-time --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --disable-altivec --disable-fixed-point --enable-targets=all --enable-libgomp --disable-libmudflap --disable-libssp --disable-libcilkrts --disable-libmpx --enable-vtable-verify --enable-libvtv --enable-lto --without-isl --enable-libsanitizer --enable-default-pie --enable-default-ssp
+Thread model: posix
+gcc version 7.3.0 (Gentoo 7.3.0-r3 p1.4) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_08d4d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/collect2 -plugin /usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgSEZpa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_08d4d /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../.. CMakeFiles/cmTC_08d4d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_08d4d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_08d4d/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_08d4d.dir/build.make CMakeFiles/cmTC_08d4d.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_08d4d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_08d4d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_08d4d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08d4d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_08d4d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_08d4d ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/x86_64-pc-linux-gnu/gcc-bin/7.3.0/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /var/tmp/portage/sys-devel/gcc-7.3.0-r3/work/gcc-7.3.0/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/7.3.0 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/7.3.0 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/7.3.0/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/7.3.0/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include/g++-v7 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/7.3.0/python --enable-languages=c,c++,fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 7.3.0-r3 p1.4' --disable-esp --enable-libstdcxx-time --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --disable-altivec --disable-fixed-point --enable-targets=all --enable-libgomp --disable-libmudflap --disable-libssp --disable-libcilkrts --disable-libmpx --enable-vtable-verify --enable-libvtv --enable-lto --without-isl --enable-libsanitizer --enable-default-pie --enable-default-ssp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Gentoo 7.3.0-r3 p1.4) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_08d4d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/collect2 -plugin /usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgSEZpa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_08d4d /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../.. CMakeFiles/cmTC_08d4d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccgSEZpa.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_08d4d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../..]
+    arg [CMakeFiles/cmTC_08d4d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../x86_64-pc-linux-gnu/lib] ==> [/usr/x86_64-pc-linux-gnu/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0;/usr/lib64;/lib64;/usr/x86_64-pc-linux-gnu/lib;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8063b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8063b.dir/build.make CMakeFiles/cmTC_8063b.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8063b.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_8063b.dir/feature_tests.cxx.o -c /home/carlos/Downloads/player-master/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8063b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8063b.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8063b.dir/feature_tests.cxx.o  -o cmTC_8063b 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9f962/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9f962.dir/build.make CMakeFiles/cmTC_9f962.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9f962.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_9f962.dir/feature_tests.cxx.o -c /home/carlos/Downloads/player-master/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9f962
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f962.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_9f962.dir/feature_tests.cxx.o  -o cmTC_9f962 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d387c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d387c.dir/build.make CMakeFiles/cmTC_d387c.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d387c.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_d387c.dir/feature_tests.cxx.o -c /home/carlos/Downloads/player-master/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d387c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d387c.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d387c.dir/feature_tests.cxx.o  -o cmTC_d387c 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_87dec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_87dec.dir/build.make CMakeFiles/cmTC_87dec.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_87dec.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_87dec.dir/feature_tests.cxx.o -c /home/carlos/Downloads/player-master/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_87dec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87dec.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_87dec.dir/feature_tests.cxx.o  -o cmTC_87dec 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the function getaddrinfo exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_07022/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_07022.dir/build.make CMakeFiles/cmTC_07022.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07022.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getaddrinfo   -o CMakeFiles/cmTC_07022.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_07022
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07022.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=getaddrinfo    -rdynamic CMakeFiles/cmTC_07022.dir/CheckFunctionExists.c.o  -o cmTC_07022 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMESPEC succeeded with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_aacd3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_aacd3.dir/build.make CMakeFiles/cmTC_aacd3.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aacd3.dir/src.c.o
+/usr/bin/cc   -Wall -DHAVE_STRUCT_TIMESPEC   -o CMakeFiles/cmTC_aacd3.dir/src.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/src.c
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/src.c:2:32: warning: unused variable ‘tmp’ [-Wunused-variable]
+ int main () { struct timespec *tmp; return 0; }
+                                ^~~
+Linking C executable cmTC_aacd3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aacd3.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DHAVE_STRUCT_TIMESPEC    -rdynamic CMakeFiles/cmTC_aacd3.dir/src.c.o  -o cmTC_aacd3 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <time.h>
+int main () { struct timespec *tmp; return 0; }
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d407c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d407c.dir/build.make CMakeFiles/cmTC_d407c.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d407c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTC_d407c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d407c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d407c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=gettimeofday    -rdynamic CMakeFiles/cmTC_d407c.dir/CheckFunctionExists.c.o  -o cmTC_d407c 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function usleep exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0667e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0667e.dir/build.make CMakeFiles/cmTC_0667e.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0667e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=usleep   -o CMakeFiles/cmTC_0667e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0667e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0667e.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=usleep    -rdynamic CMakeFiles/cmTC_0667e.dir/CheckFunctionExists.c.o  -o cmTC_0667e 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cfmakeraw exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_819fd/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_819fd.dir/build.make CMakeFiles/cmTC_819fd.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_819fd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=cfmakeraw   -o CMakeFiles/cmTC_819fd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_819fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_819fd.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=cfmakeraw    -rdynamic CMakeFiles/cmTC_819fd.dir/CheckFunctionExists.c.o  -o cmTC_819fd 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dirname exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_bbaa7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_bbaa7.dir/build.make CMakeFiles/cmTC_bbaa7.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bbaa7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=dirname   -o CMakeFiles/cmTC_bbaa7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bbaa7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbaa7.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=dirname    -rdynamic CMakeFiles/cmTC_bbaa7.dir/CheckFunctionExists.c.o  -o cmTC_bbaa7 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c246a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c246a.dir/build.make CMakeFiles/cmTC_c246a.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c246a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getopt   -o CMakeFiles/cmTC_c246a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c246a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c246a.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=getopt    -rdynamic CMakeFiles/cmTC_c246a.dir/CheckFunctionExists.c.o  -o cmTC_c246a 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getopt_long exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_272c5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_272c5.dir/build.make CMakeFiles/cmTC_272c5.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_272c5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getopt_long   -o CMakeFiles/cmTC_272c5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_272c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_272c5.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=getopt_long    -rdynamic CMakeFiles/cmTC_272c5.dir/CheckFunctionExists.c.o  -o cmTC_272c5 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/joystick.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_384de/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_384de.dir/build.make CMakeFiles/cmTC_384de.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_384de.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_384de.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_384de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_384de.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_384de.dir/CheckIncludeFiles.c.o  -o cmTC_384de 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_51635/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_51635.dir/build.make CMakeFiles/cmTC_51635.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51635.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_51635.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_51635
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51635.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_51635.dir/CheckIncludeFiles.c.o  -o cmTC_51635 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1dfa2/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1dfa2.dir/build.make CMakeFiles/cmTC_1dfa2.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1dfa2.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_1dfa2.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_1dfa2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dfa2.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_1dfa2.dir/CheckIncludeFiles.c.o  -o cmTC_1dfa2 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lt_dlopenext exists in the ltdl passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f1fc5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f1fc5.dir/build.make CMakeFiles/cmTC_f1fc5.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1fc5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=lt_dlopenext   -o CMakeFiles/cmTC_f1fc5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f1fc5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1fc5.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=lt_dlopenext    -rdynamic CMakeFiles/cmTC_f1fc5.dir/CheckFunctionExists.c.o  -o cmTC_f1fc5 -lltdl -ldl 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_280aa/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_280aa.dir/build.make CMakeFiles/cmTC_280aa.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_280aa.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTC_280aa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_280aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_280aa.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=nanosleep    -rdynamic CMakeFiles/cmTC_280aa.dir/CheckFunctionExists.c.o  -o cmTC_280aa 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7f67e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7f67e.dir/build.make CMakeFiles/cmTC_7f67e.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f67e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTC_7f67e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7f67e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f67e.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=poll    -rdynamic CMakeFiles/cmTC_7f67e.dir/CheckFunctionExists.c.o  -o cmTC_7f67e 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atan2 exists in the m passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c0e9d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c0e9d.dir/build.make CMakeFiles/cmTC_c0e9d.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0e9d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=atan2   -o CMakeFiles/cmTC_c0e9d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘atan2’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_c0e9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0e9d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=atan2    -rdynamic CMakeFiles/cmTC_c0e9d.dir/CheckFunctionExists.c.o  -o cmTC_c0e9d -lm 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function round exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b3101/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b3101.dir/build.make CMakeFiles/cmTC_b3101.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3101.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=round   -o CMakeFiles/cmTC_b3101.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘round’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_b3101
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3101.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=round    -rdynamic CMakeFiles/cmTC_b3101.dir/CheckFunctionExists.c.o  -o cmTC_b3101 -lm 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function rint exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1c222/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1c222.dir/build.make CMakeFiles/cmTC_1c222.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c222.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=rint   -o CMakeFiles/cmTC_1c222.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘rint’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_1c222
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c222.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=rint    -rdynamic CMakeFiles/cmTC_1c222.dir/CheckFunctionExists.c.o  -o cmTC_1c222 -lm 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function jpeg_read_header exists in the jpeg passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4be51/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4be51.dir/build.make CMakeFiles/cmTC_4be51.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4be51.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=jpeg_read_header   -o CMakeFiles/cmTC_4be51.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4be51
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4be51.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=jpeg_read_header    -rdynamic CMakeFiles/cmTC_4be51.dir/CheckFunctionExists.c.o  -o cmTC_4be51 -ljpeg 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdio.h;jpeglib.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9ceb6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9ceb6.dir/build.make CMakeFiles/cmTC_9ceb6.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ceb6.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_9ceb6.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_9ceb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ceb6.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_9ceb6.dir/CheckIncludeFiles.c.o  -o cmTC_9ceb6 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function compressBound exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c74f8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c74f8.dir/build.make CMakeFiles/cmTC_c74f8.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c74f8.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/zlib.h  -Wall -DCHECK_FUNCTION_EXISTS=compressBound   -o CMakeFiles/cmTC_c74f8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c74f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c74f8.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=compressBound    -rdynamic CMakeFiles/cmTC_c74f8.dir/CheckFunctionExists.c.o  -o cmTC_c74f8 -lz 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b1f84/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b1f84.dir/build.make CMakeFiles/cmTC_b1f84.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1f84.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=compress2   -o CMakeFiles/cmTC_b1f84.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b1f84
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1f84.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=compress2    -rdynamic CMakeFiles/cmTC_b1f84.dir/CheckFunctionExists.c.o  -o cmTC_b1f84 -lz 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files zlib.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3502a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3502a.dir/build.make CMakeFiles/cmTC_3502a.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3502a.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_3502a.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_3502a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3502a.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_3502a.dir/CheckIncludeFiles.c.o  -o cmTC_3502a 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_21075/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_21075.dir/build.make CMakeFiles/cmTC_21075.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21075.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_21075.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_21075
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21075.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime    -rdynamic CMakeFiles/cmTC_21075.dir/CheckFunctionExists.c.o  -o cmTC_21075 -lrt 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_41a45/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_41a45.dir/build.make CMakeFiles/cmTC_41a45.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41a45.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_41a45.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_41a45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41a45.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime    -rdynamic CMakeFiles/cmTC_41a45.dir/CheckFunctionExists.c.o  -o cmTC_41a45 -lrt 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f2211/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f2211.dir/build.make CMakeFiles/cmTC_f2211.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2211.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_f2211.dir/CheckIncludeFile.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f2211
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2211.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_f2211.dir/CheckIncludeFile.c.o  -o cmTC_f2211 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c6a38/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c6a38.dir/build.make CMakeFiles/cmTC_c6a38.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6a38.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_c6a38.dir/CheckIncludeFile.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c6a38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6a38.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_c6a38.dir/CheckIncludeFile.c.o  -o cmTC_c6a38 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7a5bd/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7a5bd.dir/build.make CMakeFiles/cmTC_7a5bd.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a5bd.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_7a5bd.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_7a5bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a5bd.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_7a5bd.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_7a5bd 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_fd4ca/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_fd4ca.dir/build.make CMakeFiles/cmTC_fd4ca.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd4ca.dir/TestEndianess.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_fd4ca.dir/TestEndianess.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_fd4ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd4ca.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_fd4ca.dir/TestEndianess.c.o  -o cmTC_fd4ca 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4fd92/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4fd92.dir/build.make CMakeFiles/cmTC_4fd92.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fd92.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_4fd92.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_4fd92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fd92.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_4fd92.dir/CheckIncludeFiles.c.o  -o cmTC_4fd92 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files alsa/asoundlib.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0b5bd/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0b5bd.dir/build.make CMakeFiles/cmTC_0b5bd.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b5bd.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_0b5bd.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_0b5bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b5bd.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_0b5bd.dir/CheckIncludeFiles.c.o  -o cmTC_0b5bd 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdio.h;jpeglib.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cd110/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cd110.dir/build.make CMakeFiles/cmTC_cd110.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd110.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_cd110.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_cd110
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd110.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_cd110.dir/CheckIncludeFiles.c.o  -o cmTC_cd110 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;linux/videodev2.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e9442/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e9442.dir/build.make CMakeFiles/cmTC_e9442.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9442.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_e9442.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e9442
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9442.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_e9442.dir/CheckIncludeFiles.c.o  -o cmTC_e9442 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the inb_p exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a1da5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a1da5.dir/build.make CMakeFiles/cmTC_a1da5.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1da5.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_a1da5.dir/CheckSymbolExists.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a1da5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1da5.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_a1da5.dir/CheckSymbolExists.c.o  -o cmTC_a1da5 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+File /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inb_p
+  return ((int*)(&inb_p))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the outb_p exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1c6db/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1c6db.dir/build.make CMakeFiles/cmTC_1c6db.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c6db.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_1c6db.dir/CheckSymbolExists.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1c6db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c6db.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_1c6db.dir/CheckSymbolExists.c.o  -o cmTC_1c6db 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+File /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef outb_p
+  return ((int*)(&outb_p))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files sys/io.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ea778/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ea778.dir/build.make CMakeFiles/cmTC_ea778.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea778.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_ea778.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ea778
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea778.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_ea778.dir/CheckIncludeFiles.c.o  -o cmTC_ea778 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files usb.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a72b3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a72b3.dir/build.make CMakeFiles/cmTC_a72b3.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a72b3.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_a72b3.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a72b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a72b3.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_a72b3.dir/CheckIncludeFiles.c.o  -o cmTC_a72b3 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/joystick.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c509d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c509d.dir/build.make CMakeFiles/cmTC_c509d.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c509d.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_c509d.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_c509d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c509d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_c509d.dir/CheckIncludeFiles.c.o  -o cmTC_c509d 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/serial.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b0417/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b0417.dir/build.make CMakeFiles/cmTC_b0417.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0417.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_b0417.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_b0417
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0417.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_b0417.dir/CheckIncludeFiles.c.o  -o cmTC_b0417 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files asm/ioctls.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a3aa7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a3aa7.dir/build.make CMakeFiles/cmTC_a3aa7.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3aa7.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_a3aa7.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a3aa7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3aa7.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_a3aa7.dir/CheckIncludeFiles.c.o  -o cmTC_a3aa7 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/serial.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d6105/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d6105.dir/build.make CMakeFiles/cmTC_d6105.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6105.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_d6105.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d6105
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6105.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_d6105.dir/CheckIncludeFiles.c.o  -o cmTC_d6105 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/wireless.h exist passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b15dc/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b15dc.dir/build.make CMakeFiles/cmTC_b15dc.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b15dc.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_b15dc.dir/CheckIncludeFiles.c.o   -c /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_b15dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b15dc.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_b15dc.dir/CheckIncludeFiles.c.o  -o cmTC_b15dc 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gtk_dialog_new_with_buttons exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f3b2a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f3b2a.dir/build.make CMakeFiles/cmTC_f3b2a.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3b2a.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/freetype2  -Wall -DCHECK_FUNCTION_EXISTS=gtk_dialog_new_with_buttons  -pthread   -o CMakeFiles/cmTC_f3b2a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f3b2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3b2a.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=gtk_dialog_new_with_buttons  -pthread    -rdynamic CMakeFiles/cmTC_f3b2a.dir/CheckFunctionExists.c.o  -o cmTC_f3b2a -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gtk_button_set_use_stock exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_05721/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_05721.dir/build.make CMakeFiles/cmTC_05721.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05721.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/freetype2  -Wall -DCHECK_FUNCTION_EXISTS=gtk_button_set_use_stock  -pthread   -o CMakeFiles/cmTC_05721.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_05721
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05721.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=gtk_button_set_use_stock  -pthread    -rdynamic CMakeFiles/cmTC_05721.dir/CheckFunctionExists.c.o  -o cmTC_05721 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gtk_dialog_run exists passed with the following output:
+Change Dir: /home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f3b5f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f3b5f.dir/build.make CMakeFiles/cmTC_f3b5f.dir/build
+gmake[1]: Entering directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3b5f.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/freetype2  -Wall -DCHECK_FUNCTION_EXISTS=gtk_dialog_run  -pthread   -o CMakeFiles/cmTC_f3b5f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f3b5f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3b5f.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DCHECK_FUNCTION_EXISTS=gtk_dialog_run  -pthread    -rdynamic CMakeFiles/cmTC_f3b5f.dir/CheckFunctionExists.c.o  -o cmTC_f3b5f -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype 
+gmake[1]: Leaving directory '/home/carlos/Downloads/player-master/build/CMakeFiles/CMakeTmp'
+
+
